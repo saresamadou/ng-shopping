@@ -1,0 +1,22 @@
+$iconWdith: 56px;
+
+.sidenav-toggle {
+  display: none;
+  padding: 0;
+  margin: 8px;
+  min-width: $iconWdith;
+
+  @media(max-width: 720px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mat-icon {
+    font-size: 30px;
+    height: $iconWdith;
+    width: $iconWdith;
+    line-height: $iconWdith;
+    color: white ;
+  }
+}
